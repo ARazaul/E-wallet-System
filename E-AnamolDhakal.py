@@ -1,9 +1,6 @@
 import csv
-# from logging import exception
-# from msilib.schema import Error
 import random
 import datetime
-# from sqlite3 import DatabaseError
 import sys
 
 DATA_BASE_FILE_PATH = "/home/anamol/Main_Project/data_base.csv"
