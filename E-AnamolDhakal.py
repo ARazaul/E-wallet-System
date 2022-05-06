@@ -176,8 +176,6 @@ def main():
                         account_creation()
                     elif admin_id not in row and admin_pass not in row:
                         print("\n..Redirecting.. Back To Login...\n")
-                        # account_number,key_pass= input("Account Number:"),input("Password:")
-                        # user_login(account_number,key_pass,open(DATA_BASE_FILE_PATH).readlines())
                         main()
             except Exception as Error:
                 print(Error)
